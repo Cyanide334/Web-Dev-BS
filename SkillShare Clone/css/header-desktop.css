@@ -1,0 +1,137 @@
+/*Section to define global variables*/
+:root{
+
+--skillshare-green: rgb(0, 255, 132);
+--skillshare-gray:#959798;
+--skillshare-darkblue:#042333;
+--skillshare-brown:#563c2c;
+--skillshare-purple: #a24cd7;
+--skillshare-link-green:#f3f3f3;
+--skillshare-white:#f3f3f3;
+--skillshare-lightgray:#dcdee1;
+--skillshare-black:#000;
+}
+
+/*Utilities to change font-size*/
+.font-size-15{
+    font-size: 15px !important;
+}
+h4{
+    font-size: 18px;
+}
+
+.font-size-13{
+    font-size: 13px;
+}
+
+
+/*Border utilities*/
+.green-border-top{
+    border-top:1px solid var(--skillshare-green);
+}
+
+.rounded-border{
+    border-radius: 4px;
+}
+
+.white-lower-border{
+    border-bottom:#dcdee1 1px solid;
+}
+/*Editing background*/
+.bg-hover-lightgray:hover{
+    background-color: var(--skillshare-lightgray);
+}
+.bg-active-black:active{
+    background-color: var(--skillshare-black);
+}
+.bg-darkblue{
+    background-color: var(--skillshare-darkblue);
+}
+.navbar{
+    background-color: var(--skillshare-darkblue);
+    font-weight: 700;
+}
+.navbar-brand{
+    background-image: url('../assets/logo-header-2020.svg');
+    height: 52px;
+    width: 104px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+}
+
+
+/* Editing Text Appeearance */
+.text-active-white:active{
+    color:var(--skillshare-white) !important;
+}
+.link-green{
+    color: var(--skillshare-link-green)!important; 
+}
+
+.link-green:hover{
+    color: var(--skillshare-green)!important;
+}
+.form-label{
+    color:var(--skillshare-white)!important;
+}
+.link-white-no-hover{
+    color: var(--skillshare-white)!important; 
+}
+
+.underline-hover:hover{
+    text-decoration: underline !important;
+}
+.font-weight-boldish{
+    font-weight: 500;
+}
+/* Element specific edits */
+.search-icon{
+    margin-top: 8px;
+    margin-right: 8px;
+    fill: white;
+}
+.search-outline{
+    border-color: white;
+    border-radius: 5px;
+    border-width: 3px;
+}
+.button-inverted{
+    color: var(--skillshare-darkblue)!important;
+    background-color: var(--skillshare-green)!important;
+    border-radius: 5px;
+    
+}
+#search{
+    background-color: var(--skillshare-darkblue);
+    color: white !important;
+}
+#search::placeholder{
+        color: white !important;
+
+}
+
+.fab{
+    font-family: 'FontAwesome',sans-serif !important;
+}
+
+.banner{
+    min-height: 247px;
+    border-radius: 8px;
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%)
+}
+#hero-image{
+    background-image: url('../assets/banner.avif');
+    background-position: center;
+    border-radius: 8px;
+    min-height: 247px;
+
+}
+.card{
+    box-shadow: 0 2px 4px 0 rgba(184,184,184,.5);
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgb(184 184 184 / 50%);
+    transition: box-shadow .2s ease-in-out;
+}

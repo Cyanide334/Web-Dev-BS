@@ -1,0 +1,22 @@
+
+.breadcrumb-item+.breadcrumb-item:before{
+    content: ">";
+}
+.input-group-text{
+    background-color: white!important;
+}
+.border-square{
+    border-radius: 0!important;
+}
+
+.bid {
+    visibility: hidden!important;
+    color: #F7F7F7;
+    background: #4fb55d;
+    border: 1px solid #4fb55d
+}
+
+.jobs:hover .bid {
+   visibility: visible!important;
+}
+
